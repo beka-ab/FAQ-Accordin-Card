@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Open+Sans:ital@0;1&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,700;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 87.2vw;
+}
+.contentDiv {
+  background-color: #ffffff;
+  border-radius: 23px;
+  padding-top: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.h1Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.absoluteImg {
+  position: absolute;
+  top: 25%;
+  max-width: 100%;
+  height: auto;
+}
+.divForImg {
+  padding-top: 40.41px;
+  width: 235.078px;
+  height: 139.37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bg-pattern {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: auto;
+}
+span {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4b4c5f;
+}
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  margin-top: 19px;
+}
+.desktopWoman,
+.desktopImages,
+.desktopPattern,
+.desktopIllu {
+  display: none;
+}
+.firstDiv {
+  margin-top: 40px;
+}
+.answer {
+  display: none;
+  padding-top: 13px;
+  scroll-behavior: smooth;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #787887;
+  transition: all 5s ease-out;
+}
+.pText {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #4b4c5f;
+}
+.lastDiv {
+  margin-bottom: 48px;
+}
+
+.divForLine {
+  width: 100%;
+  height: 1px;
+  background: #e8e8ea;
+  margin-top: 16px;
+}
+.addClass {
+  display: block;
+}
+.removeclass {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .mainDiv {
+    flex-direction: row;
+    width: 920px;
+    background: hsla(0, 0%, 100%, 1);
+    position: relative;
+    overflow: hidden;
+  }
+  .bg-pattern {
+    display: none;
+  }
+  .absoluteImg {
+    display: none;
+  }
+  .contentDiv {
+    padding-top: 65px;
+    padding-right: 95px;
+    padding-left: 0px;
+  }
+  .divForImg {
+    display: none;
+  }
+  .h1Div {
+    justify-content: flex-start;
+  }
+  .imgDivDesk {
+    position: relative;
+    width: 964px;
+    height: 568px;
+  }
+  .desktopPattern {
+    position: absolute;
+    transform: translate(-558px, -72px);
+  }
+  .desktopWoman {
+    transform: translate(-81px, -13px);
+  }
+  .container {
+    position: relative;
+  }
+  .desktopIllu {
+    position: absolute;
+    transform: translate(-91px, -304px);
+  }
+  .lastDiv {
+    margin-bottom: 83px;
+  }
+  .desktopWoman,
+  .desktopImages,
+  .desktopPattern,
+  .desktopIllu {
+    display: inline;
+  }
+}
